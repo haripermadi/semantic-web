@@ -1,0 +1,102 @@
+body{
+  font-family:'Roboto',sans-serif;
+  font-size: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('antiqueheader.jpg');
+  background-size: cover;
+  color: #fff;
+  height: 550px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-sm-6 {
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
